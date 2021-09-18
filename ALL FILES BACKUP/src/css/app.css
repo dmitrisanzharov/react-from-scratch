@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container .bg-light {
+  background-color: #F3EED9;
+}
+
+.main-container .bg-dark {
+  background-color: #222C2A;
+}
+
+.main-container .bg-brown {
+  background-color: #824936;
+}
+
+.main-container .font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-container .font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.main-container .header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.main-container .header p {
+  margin-bottom: 1.5rem;
+}
+
+.main-container .header h1 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 33rem;
+  padding-inline: 1rem;
+  margin: auto;
+  color: #824936;
+  font-size: 2.5rem;
+  line-height: .95;
+}
+
+.main-container .box1 {
+  text-align: center;
+  min-height: 15rem;
+}
+
+.main-container .box1 h1 {
+  color: #824936;
+  font-family: "Playfair Display", serif;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-container .box1 .wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: min(55rem, 90%);
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.main-container .box1 .wrapper .sbox {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1rem;
+  text-align: left;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  line-height: 1.5;
+}
+
+.main-container .box1 .wrapper .sbox img {
+  display: block;
+  max-width: 100%;
+}
+
+.main-container .box1 .wrapper .sbox h1 {
+  color: #F3EED9;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 0;
+}
+
+.main-container .box1 .wrapper .sbox p {
+  line-height: 1.5;
+}
+
+.main-container .box2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media all and (max-width: 650px) {
+  .main-container .box1 .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=app.css.map */
